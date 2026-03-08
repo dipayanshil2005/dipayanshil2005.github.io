@@ -105,3 +105,19 @@ footer{
     color:white;
 }
 
+.hero2{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#0a0a0a;
+color:white;
+}
+
+.hero-container{
+display:flex;
+align-items:center;
+justify-content:space-between;
+width:80%;
+}
+
