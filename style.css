@@ -80,7 +80,11 @@ nav ul li a{
     text-decoration:none;
     font-weight:500;
 }
-.skill-container{
+
+nav ul li a:hover{
+    color:#00adb5;
+}
+.skills-container{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
@@ -93,9 +97,5 @@ nav ul li a{
     border-radius:8px;
     width:120px;
     text-align:center;
-}
-
-nav ul li a:hover{
-    color:#00adb5;
 }
 
