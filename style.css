@@ -18,6 +18,15 @@ body {
     background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
 }
 
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 h1 { font-size: 3rem; margin-bottom: 0.5rem; color: #38bdf8; } /* Cyan accent */
 
 /* Project Cards */
@@ -44,3 +53,4 @@ h1 { font-size: 3rem; margin-bottom: 0.5rem; color: #38bdf8; } /* Cyan accent */
 }
 
 h3 { color: #38bdf8; }
+
