@@ -90,12 +90,18 @@ nav ul li a:hover{
     flex-wrap:wrap;
 }
 
-.skill-card{
+.skill-badge{
     border:1px solid #ddd;
     padding:20px;
     margin:10px;
     border-radius:8px;
     width:120px;
     text-align:center;
+}
+footer{
+    text-align:center;
+    padding:40px;
+    background:#111;
+    color:white;
 }
 
