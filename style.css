@@ -54,3 +54,33 @@ h1 { font-size: 3rem; margin-bottom: 0.5rem; color: #38bdf8; } /* Cyan accent */
 
 h3 { color: #38bdf8; }
 
+nav{
+    position: sticky;
+    top: 0;
+    background: #111;
+    color: white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+}
+
+nav ul li a:hover{
+    color:#00adb5;
+}
